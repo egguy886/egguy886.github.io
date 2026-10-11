@@ -1,0 +1,1 @@
+var e=`https://assets.carterogunsola.com`;function t(t){return`${e}/${t.replace(/^\/+/,``)}`}function n(t,n=720,r=86){return`${e}/cdn-cgi/image/width=${n},quality=${r},format=auto/${t.replace(/^\/+/,``)}`}export{t as n,n as r,e as t};

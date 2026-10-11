@@ -1,0 +1,1 @@
+import{o as e}from"./mesh.DnpBQ695.js";function t(t,n,r,i=1500){let a=!1,o=performance.now(),s=t.compileAsync(n,r).catch(()=>{}),c=Promise.race([s,new Promise(e=>setTimeout(e,i))]).then(()=>{a=!0;try{performance.measure(`gl-warm`,{start:o})}catch{}});return e.active&&e.hold(c,i),{ready:()=>a,done:c}}export{t};
